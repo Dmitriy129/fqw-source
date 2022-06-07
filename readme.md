@@ -1,16 +1,16 @@
 # FQW
 
 ## Docker образ
-[Тык](https://hub.docker.com/repository/docker/fox1209/gm_scripts)
+[Ссылка](https://hub.docker.com/repository/docker/fox1209/gm_scripts)
 
 ## GitHub Action - script 1
-[Тык](https://github.com/marketplace/actions/pull-request-bot-synchronizes-two-services-github-moodle-script-1)
+[Ссылка](https://github.com/marketplace/actions/pull-request-bot-synchronizes-two-services-github-moodle-script-1)
 
 ## GitHub Action - script 2
-[Тык](https://github.com/marketplace/actions/pull-request-bot-synchronizes-two-services-github-moodle-script-2)
+[Ссылка](https://github.com/marketplace/actions/pull-request-bot-synchronizes-two-services-github-moodle-script-2)
 
 ## Пример настроки и использования
-[Тык](https://github.com/Dmitriy129/fqw-example)
+[Ссылка](https://github.com/Dmitriy129/fqw-example)
 
 ## Локальный запуск
 
@@ -65,7 +65,7 @@ python main.py <script_name> <? "mock"> <? mock_grade>
 
 ### helpers/chooseMoodleRunConfigByPrTitle
 
-Выбирает фонфигурацию для 1го скрипта по `GitHub PR Title`
+Выбирает конфигурацию для 1го скрипта по `GitHub PR Title`
 
 
 
