@@ -1,0 +1,9 @@
+.git
+.github
+.vscode
+configs
+waste
+.gitignore
+Dockerfile
+Jenkinsfile
+__pycache__

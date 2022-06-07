@@ -1,0 +1,87 @@
+{
+    "github": {
+        "credentials": {
+            "accessToken": "!!!deprecated!!! read from env GITHUB_ACCESS_TOKEN"
+        },
+        "gradeLabel": {
+            "defaultTemplate": "#Moodle",
+            "defaultColor": "c4c",
+            "config": [
+                [
+                    [0, 30],
+                    {
+                        "color": "ff3d00",
+                        "template": "Не сдали ({raw}/{max})",
+                        "description": "можно написать, но видно вроде только в настройках"
+                    }
+                ],
+                [
+                    [30, 60],
+                    {
+                        "color": "ffd740",
+                        "template": "Зачет ({raw}/{max})",
+                        "description": "можно написать, но видно вроде только в настройках"
+                    }
+                ],
+                [
+                    [60, 80],
+                    {
+                        "color": "64dd17",
+                        "template": "Зачет но лучше ({raw}/{max})",
+                        "description": "можно написать, но видно вроде только в настройках"
+                    }
+                ],
+                [
+                    [80, 101],
+                    {
+                        "color": "2979ff",
+                        "template": "Необходимо записаться на сдачу ({raw}/{max})",
+                        "description": "можно написать, но видно вроде только в настройках",
+                        "comment": "Вы набрали {raw} баллов из {max}.\nДля продолжения сдачи необходимо записаться в [таблицу](https://docs.google.com/spreadsheets/d/1hZBXLM_nF7gObG2jjm6lUAF7-wc-_5740SGJ3Rgyu1Y/edit?usp=sharing)\n"
+                    }
+                ]
+            ]
+        },
+        "accessLabel": {
+            "defaultTemplate": "#Moodle",
+            "defaultColor": "c4c",
+            "config": [
+                [
+                    [-1, 0],
+                    {
+                        "color": "ff3d00",
+                        "template": "-",
+                        "description": "можно написать, но видно вроде только в настройках",
+                        "comment": "Не решена задача на мудл, необходомо сделать что-то для допуска",
+                        "needToClose": true
+                    }
+                ],
+                [
+                    [0, 100],
+                    {
+                        "color": "238636",
+                        "template": "+",
+                        "description": "можно написать, но видно вроде только в настройках",
+                        "comment": "Из {max} баллов {raw} набрали вы.\nНа защиту записаться нужно вам, дабы джедая путь продолжить.\n"
+                    }
+                ]
+            ]
+        }
+    },
+    "moodle": {
+        "baseUrl": "http://e.moevm.info",
+        "credentials": {
+            "token": "!!!deprecated!!! read from env MOODLE_ACCESS_TOKEN"
+      }
+    },
+    "googleSheet": {
+        "id": "1-KENToVk8vYABspbj-7gUsojEO9lFMzffeNVVACqPEQ",
+        "headers": {
+            "fio": "ФИО",
+            "email": "Email",
+            "github": "github",
+            "username": "username",
+            "group": "Группа"
+        }
+    }
+}

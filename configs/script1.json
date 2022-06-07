@@ -1,0 +1,17 @@
+[
+    {
+        "prRegex": "^\\w*_(lr1)$",
+        "courseId": 47,
+        "cmId": 1553
+    },
+    {
+        "prRegex": "^\\w*_(lr2)$",
+        "courseId": 47,
+        "cmId": 1553
+    },
+    {
+        "prRegex": "^\\w*_(lr3)$",
+        "courseId": 47,
+        "cmId": 1553
+    }
+]
